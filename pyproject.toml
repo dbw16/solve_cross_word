@@ -1,0 +1,14 @@
+[project]
+name = ""
+description = ""
+version = "0.1.0"
+authors = [
+    { name = "", email = "" }
+]
+
+[tool.ruff]
+line-length = 150
+select = ["F", "E", "W", "I001"]
+
+[tool.black]
+line-length = 150
